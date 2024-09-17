@@ -8,6 +8,7 @@ This repository includes Markdown (.md) files that provide comprehensive informa
 
 1. **Authentication API**: Detailed usage instructions for logging in and registering users through our API endpoints.
 2. **User Management**: Guidelines and procedures for importing user data via Excel.
+3. **Movement Management**: Guide to manage the registration of movements and their request status.
 
 ## Contents
 
