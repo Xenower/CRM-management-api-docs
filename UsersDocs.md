@@ -1,4 +1,4 @@
-# API Documentation - miurafx.com
+# API Documentation 
 
 ## General Description
 
