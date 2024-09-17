@@ -53,7 +53,7 @@ If the registration is successful, the following JSON response will be returned:
 }
 ```
 
-##### Códigos de Respuesta
+##### Response Codes
 - **201 Created**: The user has been created successfully.
 - **422 Unprocessable Entity**: Validation errors. The response body will contain details of the errors.
 
@@ -84,10 +84,10 @@ If the login is successful, the following JSON response will be returned:
 }
 ```
 
-##### Códigos de Respuesta
+##### Response Codes
 - **200 OK**: Login successful. An authentication token is returned.
 - **401 Unauthorized**: The credentials provided are incorrect.
 
 ### Notas Adicionales
-- **Autenticación**: The token returned by the `/auth/login` endpoint must be used in the headers of requests to endpoints that require authentication, in the form:`Authorization: Bearer {token}`.
-- **Validación de campos**: All validation error messages are customized in Spanish.
+- **authentication**: The token returned by the `/auth/login` endpoint must be used in the headers of requests to endpoints that require authentication, in the form:`Authorization: Bearer {token}`.
+- **Field validation**: All validation error messages are customized in Spanish.
